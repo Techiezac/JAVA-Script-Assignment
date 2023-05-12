@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen {
+    
+}
+body{
+    background-color: brown;
+}
+.main{
+   margin: 2px;
+   height: 100vh;
+}
+.image{
+    height: 250px;
+    width: 250px;
+    border-radius: 50px;
+    border: 7px solid white;
+    margin-left: 550px;
+}
+h1, h2 {
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+.paragraph{
+    color: white;
+    font-family: Arial;
+    font-size: medium;
+    padding: 2px;
+    margin: 5px;
+    line-height: 20px;
+}
+.action{
+    color: white;
+    font-size: large;
+    margin-top: -10px;
+    margin-left: 510px;
+}
+.btnn{
+    margin-left: 100px;
+    border: none;
+    cursor: pointer;
+    background: white;
+    color: brown;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.5s ease-in-out;
+    font-size: 12px;
+}
+.btnn:hover{
+    background: rgb(87, 32, 32);
+    color: white;
+    font-size: 15px;
+}
